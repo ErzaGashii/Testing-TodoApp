@@ -1,0 +1,71 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "default-priority-should-be-none;user-wants-the-default-priority-to-be-none",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "User wants the default priority to be none",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3291074800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User get in the add to-do form",
+            "match": {
+              "location": "features\\steps\\testingFeatures.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3055994099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User fill the form and select None Priority",
+            "match": {
+              "location": "features\\steps\\testingFeatures.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2096743000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Default priority is Low",
+            "match": {
+              "location": "features\\steps\\testingFeatures.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1620312700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "default-priority-should-be-none",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Default priority should be None",
+    "tags": [],
+    "uri": "features\\testing.feature"
+  }
+]
